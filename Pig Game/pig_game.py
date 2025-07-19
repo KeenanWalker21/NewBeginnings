@@ -2,8 +2,6 @@ import random as rand
 import os
 import time
 import sys
-from playsound import playsound
-
 
 def clear_screen():
     os.system("cls" if os.name == 'nt' else 'clear')
